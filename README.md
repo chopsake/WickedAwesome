@@ -1,4 +1,5 @@
 WickedAwesome
 =============
 
-An experiment in indoor location services
+An experiment in indoor location services using triangulation.
+
