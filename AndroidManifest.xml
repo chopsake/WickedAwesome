@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="edu.ucdavis.WickedAwesome" android:versionCode="1"
+	android:versionName="1.0">
+	<uses-sdk android:minSdkVersion="8"></uses-sdk>
+
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+	<uses-permission android:name="android.permission.BLUETOOTH"></uses-permission>
+	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.UPDATE_DEVICE_STATS"></uses-permission>
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.WAKE_LOCK"></uses-permission>
+
+	<application android:icon="@drawable/wickedawesome"
+		android:label="@string/app_name" android:debuggable="true">
+		<activity android:name=".Login"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".Host"></activity>
+		<activity android:name=".HostList"></activity>
+		<activity android:name=".Join"></activity>
+    <activity android:name=".Play_Join"></activity>
+		<activity android:name=".Play_Join2"></activity>
+		<activity android:name=".Options"></activity>
+		<activity android:name=".Register"></activity>
+		<activity android:name=".WickedAwesome"></activity>
+		<activity android:name=".ViewWirelessData"></activity>
+		<activity android:name=".ViewBlueScan"></activity>
+		<activity android:name=".Hot"></activity>
+		<activity android:name=".Cold"></activity>
+    <activity android:name=".Won"></activity>
+	</application>
+
+</manifest>

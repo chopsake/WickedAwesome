@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#0000FF">
+    <TextView
+        android:text="WITHIN RANGE!"
+        android:textColor="#FFFFFF"
+        android:background="#0000FF"
+        android:textSize="30px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:id="@+id/TextView1">
+    </TextView>
+</RelativeLayout>

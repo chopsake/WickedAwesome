@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:text="Game Title"
+        android:id="@+id/JoinTextView"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:text="Game"
+        android:id="@+id/joinGameTitle"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:textColor="#a4d4b0"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/JoinTextView" />
+
+    <Button
+        android:text="Am I getting closer?"
+        android:id="@+id/joinTest"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true" />
+
+    <Button
+        android:text="End Game"
+        android:id="@+id/joinEndGame"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_height="fill_parent"
+    android:layout_width="match_parent">
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_x="28dip"
+        android:id="@+id/TextView01"
+        android:layout_y="25dip"
+        android:text="New User Registration">
+    </TextView>
+    <TextView
+        android:text="Email Address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/TextView00">
+    </TextView>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:id="@+id/txt_username">
+    </EditText>
+    <TextView
+        android:text="First Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/TextView01">
+    </TextView>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:id="@+id/txt_fname">
+    </EditText>
+    <TextView
+        android:text="Last Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/TextView02">
+    </TextView>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:id="@+id/txt_lname">
+    </EditText>
+    <TextView
+        android:text="Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/TextView03">
+    </TextView>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:id="@+id/txt_password"
+        android:password="true">
+    </EditText>
+    <Button
+        android:layout_width="fill_parent"
+        android:text="Create Account"
+        android:layout_height="wrap_content"
+        android:id="@+id/setup_button"
+        android:layout_marginTop="50px">
+    </Button>
+</LinearLayout>

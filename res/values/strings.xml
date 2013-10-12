@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Welcome to Wicked Awesome!</string>
+	<string name="app_name">Wicked Awesome</string>
+	<string name="menu_mygps1">Init GPS</string>
+	<string name="menu_mygps2">Get GPS</string>
+	<string name="menu_myblue">Get Blue</string>
+	<string name="menu_myblue2">Get Blue 2</string>
+	<string name="menu_myall">Get Both</string>
+	<string name="menu_aplist">Wifi AP List</string>
+	<string name="menu_blues">Bluetooth List</string>
+	<string name="menu_compwifi">Compare WiFi Lists</string>
+	<string name="menu_compwifihost">Set Host WiFi List</string>
+	<string name="menu_compgps">Compare GPS positions</string>
+	<string name="menu_compgpshost">Set Host GPS</string>
+  <string name="hostlist_refresh">Refresh List</string>
+  <string name="hostlist_quit">Kill Game</string>
+</resources>

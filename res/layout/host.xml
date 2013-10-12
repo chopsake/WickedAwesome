@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:text="Game Title"
+        android:id="@+id/HostTitleView"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+    </TextView>
+
+    <EditText
+        android:id="@+id/HostTitle"
+        android:layout_width="fill_parent"
+        android:singleLine="true"
+        android:layout_below="@id/HostTitleView"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <ListView
+        android:id="@+id/HostList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/HostTitle"
+        android:layout_above="@+id/buttonHost">
+    </ListView>
+
+    <Button
+        android:text="Start/End Game"
+        android:id="@id/buttonHost"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+    </Button>
+</RelativeLayout>
